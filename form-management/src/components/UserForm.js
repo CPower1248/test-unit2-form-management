@@ -15,15 +15,26 @@ function UserForm (props) {
 
     return (
         <form className="userform-container" onSubmit={onSubmit} >
-            <label>Name:
-                <input type="text" name="name" value={values.name} onChange={onChange} />
-            </label>
-            <label>Age:
-                <input type="text" name="age" value={values.age} onChange={onChange} />
-            </label>
-            <label>Height:
-                <input type="text" name="height" value={values.height} onChange={onChange} />
-            </label>
+            <div>
+                <label>Name:
+                    <input type="text" name="name" value={values.name} onChange={onChange} />
+                </label>
+                <label>Age:
+                    <input type="text" name="age" value={values.age} onChange={onChange} />
+                </label>
+                <label>Height:
+                    <input type="text" name="height" value={values.height} onChange={onChange} />
+                </label>
+            </div>
+            <div>
+                <label>Role:
+                    <select type="dropdown" name="role" value={values.role} onChange={onChange}>
+                        <option value="">-select role-</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Red">Red</option>
+                    </select>
+                </label>
+            </div>
             <button>submit</button>
         </form>
     )

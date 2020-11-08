@@ -8,7 +8,8 @@ const initialFormValues = {
   id: Math.round(Math.random() * 10000),
   name: "",
   age: "",
-  height: ""
+  height: "",
+  role: ""
 }
 
 const initialUsers = []
@@ -37,7 +38,8 @@ function App() {
       id: Math.round(Math.random() * 10000),
       name: formValues.name.trim(),
       age: formValues.age,
-      height: formValues.height
+      height: formValues.height,
+      role: formValues.role
     }
     axios.post("https://reqres.in/api/users")
      .then(res => {

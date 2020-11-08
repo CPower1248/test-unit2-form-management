@@ -8,6 +8,7 @@ function User (props) {
             <h3>Name: {details.name}</h3>
             <p>Age: {details.age}</p>
             <p>Height: {details.height}</p>
+            <p>Role: {details.role}</p>
         </div>
     )
 }
