@@ -1,5 +1,6 @@
 import React from "react"
 import User from "./User"
+import "./UserList.css"
 
 function UserList (props) {
     const { users } =props
@@ -7,9 +8,11 @@ function UserList (props) {
     return (
         <div className="userlist-container" >
             <h2>User List</h2>
-            {users.map(item => {
-                return <User details={item} key={item.id} />
-            })}
+            <div className="userlist">
+                {users.map(item => {
+                    return <User details={item} key={item.id} />
+                })}
+            </div>
         </div>
     )
 }

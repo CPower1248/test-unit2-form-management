@@ -1,0 +1,22 @@
+.userlist-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.userlist {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1%;
+    width: 100%;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    width: 100vw;
+}

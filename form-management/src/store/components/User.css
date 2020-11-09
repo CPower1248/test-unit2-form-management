@@ -1,0 +1,14 @@
+.user-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: baseline;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 30%;
+    margin: 1%;
+}
+
+h3 {
+    border-bottom: 1px solid black;
+    height: 50px;
+}

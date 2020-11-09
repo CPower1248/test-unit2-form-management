@@ -1,0 +1,42 @@
+* {
+    /* border: 1px solid red; */
+}
+
+.userform-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid black;
+    padding: 1%;
+}
+
+.text-container {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}
+
+.dropdown-container {
+    display: flex;
+    align-items: center;
+}
+
+.radio-container div {
+    display: flex;
+    flex-flow: column;
+    border: 1px solid black;
+}
+
+.checkbox-container div {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    border: 1px solid black;
+}
+
+.submit-btn {
+    border-radius: 10px;
+    height: 4vh;
+    width: 8vw;
+}
+
